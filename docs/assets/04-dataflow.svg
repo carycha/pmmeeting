@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2057.11 596" width="2057.11" height="596" style="--bg:#0d1117;--fg:#e6edf3;--line:#3d444d;--accent:#4493f8;--muted:#9198a1">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap');
+  text { font-family: 'Inter', system-ui, sans-serif; }
+  svg {
+    /* Derived from --bg and --fg (overridable via --line, --accent, etc.) */
+    --_text:          var(--fg);
+    --_text-sec:      var(--muted, color-mix(in srgb, var(--fg) 60%, var(--bg)));
+    --_text-muted:    var(--muted, color-mix(in srgb, var(--fg) 40%, var(--bg)));
+    --_text-faint:    color-mix(in srgb, var(--fg) 25%, var(--bg));
+    --_line:          var(--line, color-mix(in srgb, var(--fg) 30%, var(--bg)));
+    --_arrow:         var(--accent, color-mix(in srgb, var(--fg) 50%, var(--bg)));
+    --_node-fill:     var(--surface, color-mix(in srgb, var(--fg) 3%, var(--bg)));
+    --_node-stroke:   var(--border, color-mix(in srgb, var(--fg) 20%, var(--bg)));
+    --_group-fill:    var(--bg);
+    --_group-hdr:     color-mix(in srgb, var(--fg) 5%, var(--bg));
+    --_inner-stroke:  color-mix(in srgb, var(--fg) 12%, var(--bg));
+    --_key-badge:     color-mix(in srgb, var(--fg) 10%, var(--bg));
+  }
+</style>
+<defs>
+  <marker id="arrowhead" markerWidth="8" markerHeight="4.8" refX="8" refY="2.4" orient="auto">
+    <polygon points="0 0, 8 2.4, 0 4.8" fill="var(--_arrow)" />
+  </marker>
+  <marker id="arrowhead-start" markerWidth="8" markerHeight="4.8" refX="0" refY="2.4" orient="auto-start-reverse">
+    <polygon points="8 0, 0 2.4, 8 4.8" fill="var(--_arrow)" />
+  </marker>
+</defs>
+<rect x="40" y="210" width="100" height="116" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
+<rect x="40" y="210" width="100" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+<text x="52" y="224" dy="0.35em" font-size="12" font-weight="600" fill="var(--_text-sec)">User</text>
+<rect x="285.20000000000005" y="40" width="386.59999999999997" height="516" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
+<rect x="285.20000000000005" y="40" width="386.59999999999997" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+<text x="297.20000000000005" y="54" dy="0.35em" font-size="12" font-weight="600" fill="var(--_text-sec)">&quot;Pi 宿主&quot;</text>
+<rect x="811.28" y="40" width="1205.83" height="236" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
+<rect x="811.28" y="40" width="1205.83" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+<text x="823.28" y="54" dy="0.35em" font-size="12" font-weight="600" fill="var(--_text-sec)">&quot;pmmeeting 套件（~/.pi/agent/git/…）&quot;</text>
+<rect x="1501.81" y="260" width="515.3" height="296" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
+<rect x="1501.81" y="260" width="515.3" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+<text x="1513.81" y="274" dy="0.35em" font-size="12" font-weight="600" fill="var(--_text-sec)">&quot;用戶 project&quot;</text>
+<polyline points="120,286 305.2,286" fill="none" stroke="var(--_line)" stroke-width="0.75" marker-end="url(#arrowhead)" />
+<polyline points="651.8,286 671.8,286 671.8,116 909.93,116" fill="none" stroke="var(--_line)" stroke-width="0.75" marker-end="url(#arrowhead)" />
+<polyline points="1120.68,116 1759.46,116 1759.46,158" fill="none" stroke="var(--_line)" stroke-width="0.75" marker-end="url(#arrowhead)" />
+<polyline points="651.8,286 671.8,286 671.8,176 831.28,176" fill="none" stroke="var(--_line)" stroke-width="0.75" marker-end="url(#arrowhead)" />
+<polyline points="1199.33,176 1759.46,176 1759.46,318" fill="none" stroke="var(--_line)" stroke-width="0.75" marker-end="url(#arrowhead)" />
+<polyline points="651.8,286 671.8,286 671.8,396 1521.81,396" fill="none" stroke="var(--_line)" stroke-width="0.75" marker-end="url(#arrowhead)" />
+<polyline points="540.975,516 1593.31,516" fill="none" stroke="var(--_line)" stroke-width="0.75" marker-end="url(#arrowhead)" />
+<polyline points="651.8,286 671.8,286 671.8,456 1679.1100000000001,456" fill="none" stroke="var(--_line)" stroke-width="0.75" stroke-dasharray="4 4" marker-end="url(#arrowhead)" />
+<polyline points="1106.3799999999999,236 1759.46,236 1759.46,194" fill="none" stroke="var(--_line)" stroke-width="0.75" stroke-dasharray="4 4" marker-end="url(#arrowhead)" />
+<rect x="176" y="272.5" width="73.2" height="27" rx="4" ry="4" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="0.5" />
+<text x="212.6" y="286" text-anchor="middle" dy="0.35em" font-size="11" font-weight="400" fill="var(--_text-muted)">/pmmeeting</text>
+<rect x="707.8" y="102.5" width="67.48" height="27" rx="4" ry="4" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="0.5" />
+<text x="741.54" y="116" text-anchor="middle" dy="0.35em" font-size="11" font-weight="400" fill="var(--_text-muted)">read 絕對路徑</text>
+<rect x="1301.09" y="102.5" width="118.96000000000001" height="27" rx="4" ry="4" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="0.5" />
+<text x="1360.57" y="116" text-anchor="middle" dy="0.35em" font-size="11" font-weight="400" fill="var(--_text-muted)">phase 指令：read 絕對路徑</text>
+<rect x="719.24" y="162.5" width="44.6" height="27" rx="4" ry="4" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="0.5" />
+<text x="741.54" y="176" text-anchor="middle" dy="0.35em" font-size="11" font-weight="400" fill="var(--_text-muted)">spawn</text>
+<rect x="1255.33" y="162.5" width="210.48000000000002" height="27" rx="4" ry="4" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="0.5" />
+<text x="1360.57" y="176" text-anchor="middle" dy="0.35em" font-size="11" font-weight="400" fill="var(--_text-muted)">init/validate/instructions/archive</text>
+<rect x="981.5649999999999" y="382.5" width="67.48" height="27" rx="4" ry="4" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="0.5" />
+<text x="1015.305" y="396" text-anchor="middle" dy="0.35em" font-size="11" font-weight="400" fill="var(--_text-muted)">gate 通過才寫</text>
+<rect x="995.8649999999999" y="502.5" width="38.88" height="27" rx="4" ry="4" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="0.5" />
+<text x="1015.305" y="516" text-anchor="middle" dy="0.35em" font-size="11" font-weight="400" fill="var(--_text-muted)">自動發現</text>
+<rect x="972.9849999999999" y="442.5" width="84.64" height="27" rx="4" ry="4" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="0.5" />
+<text x="1015.305" y="456" text-anchor="middle" dy="0.35em" font-size="11" font-weight="400" fill="var(--_text-muted)">retro/memory</text>
+<rect x="1326.83" y="222.5" width="67.48" height="27" rx="4" ry="4" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="0.5" />
+<text x="1360.57" y="236" text-anchor="middle" dy="0.35em" font-size="11" font-weight="400" fill="var(--_text-muted)">doctor 校驗</text>
+<rect x="60" y="268" width="60" height="36" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+<rect x="305.2" y="268" width="346.6" height="36" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+<rect x="416.025" y="498" width="124.95" height="36" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+<rect x="909.93" y="98" width="210.75000000000003" height="36" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+<rect x="1593.31" y="158" width="332.3" height="36" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+<rect x="831.28" y="158" width="368.05" height="36" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+<rect x="924.2299999999999" y="218" width="182.15" height="36" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+<rect x="1586.16" y="318" width="346.6" height="36" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+<rect x="1521.81" y="378" width="475.3" height="36" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+<rect x="1593.31" y="498" width="332.3" height="36" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+<rect x="1679.1100000000001" y="438" width="160.70000000000002" height="36" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+<text x="90" y="286" text-anchor="middle" dy="0.35em" font-size="13" font-weight="500" fill="var(--_text)">用戶</text>
+<text x="478.5" y="286" text-anchor="middle" dy="0.35em" font-size="13" font-weight="500" fill="var(--_text)">pmmeeting extension&lt;br/&gt;commands/tool/events</text>
+<text x="478.5" y="516" text-anchor="middle" dy="0.35em" font-size="13" font-weight="500" fill="var(--_text)">skills loader</text>
+<text x="1015.305" y="116" text-anchor="middle" dy="0.35em" font-size="13" font-weight="500" fill="var(--_text)">skills/pmmeeting/SKILL.md</text>
+<text x="1759.46" y="176" text-anchor="middle" dy="0.35em" font-size="13" font-weight="500" fill="var(--_text)">upstream/superpowers/skills/*（15，vendored）</text>
+<text x="1015.305" y="176" text-anchor="middle" dy="0.35em" font-size="13" font-weight="500" fill="var(--_text)">node_modules/@fission-ai/openspec&lt;br/&gt;pin 2.0.0</text>
+<text x="1015.305" y="236" text-anchor="middle" dy="0.35em" font-size="13" font-weight="500" fill="var(--_text)">superpowers.lock.json</text>
+<text x="1759.46" y="336" text-anchor="middle" dy="0.35em" font-size="13" font-weight="500" fill="var(--_text)">openspec/ 樹&lt;br/&gt;specs/ + changes/&amp;lt;id&amp;gt;/</text>
+<text x="1759.46" y="396" text-anchor="middle" dy="0.35em" font-size="13" font-weight="500" fill="var(--_text)">.pmmeeting/project.json&lt;br/&gt;changes/&amp;lt;id&amp;gt;/.pmmeeting.json</text>
+<text x="1759.46" y="516" text-anchor="middle" dy="0.35em" font-size="13" font-weight="500" fill="var(--_text)">.agents/skills/openspec-*&lt;br/&gt;（官方 init 產出）</text>
+<text x="1759.46" y="456" text-anchor="middle" dy="0.35em" font-size="13" font-weight="500" fill="var(--_text)">AGENTS.md / memory</text>
+</svg>

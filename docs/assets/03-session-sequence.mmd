@@ -1,0 +1,19 @@
+sequenceDiagram
+    participant U as 用戶
+    participant E as pi extension
+    participant M as model（orchestrator skill）
+    participant C as openspec CLI（bundled）
+    participant S as filesystem
+
+    U->>E: /pmmeeting
+    E->>S: 讀 project.json / .pmmeeting.json
+    E-->>M: context 注入：phase + 下一步指令包 + skill 絕對路徑表
+    M->>M: read 當前 phase 的 upstream skill（絕對路徑）
+    M->>C: openspec instructions apply --json
+    C-->>M: tasks（sourcePath/line/contextFiles）
+    M->>S: TDD：red→green→commit、勾 tasks.md
+    M->>E: pmmeeting record-tdd 3 green --commit abc
+    M->>E: pmmeeting advance --to verify
+    E->>C: gate 驗證（validate / 勾選計數 / 測試）
+    E->>S: 寫 .pmmeeting.json（phase=verify）
+    E-->>M: verify 的指令包（openspec-verify-change + 契約）
